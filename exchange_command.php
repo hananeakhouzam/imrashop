@@ -73,41 +73,15 @@ include'sidebar.html';
             <!--================================-->
             <div class="page-inner pd-0-force">
                <!-- File Manages -->
-           .<div class="col-md-12">
-              <div class="d-flex justify-content-between align-items-center">
-                                 <div>
-                                    <h6 class="card-header-title tx-13 mb-0"> المدن والموزعين المكلفين بهم</h6>
-                                 </div>
-                              </div>
-<div class="row clearfix">
-                     <!--================================-->
-                     <!-- Basic dataTable Start -->
-                     <!--================================-->
-                     <div class="col-md-6">
+                  <div class="row clearfix">
+                     <div class="col-12">
                         <div class="card mg-b-30">
-                           <div class="card-body pd-0">
-                              <table id="basicDataTable" class="table responsive nowrap">
-                                 <thead>
-                                    <tr>
-                                       <th>المدينة   </th>
-                                       <th>الرمز    </th>
-                                       <th>الموزع  </th>
-                                    </tr>
-                                 </thead>
-                                 <tbody>
-                                 </tbody>
-                           <td></td>
-                           <td>name</td>
-                           <td>name</td>
-                              </table>
+                           <div class="card-body">
+                              <p class="lead mb-0">تحويل الطلبات من موظفة لأخرى<br> المرجوا استعمال هذه الأداة بانتباه ، لا يمكن التراجع عن العملية<br> يتم تحويل فقط الطلبات قيد المعالجة.</p>
                            </div>
                         </div>
                      </div>
-       
-
-
-<div class="col-md-6">
-
+                  </div>
                         <div class="card mg-b-30">
                            <div class="card-header">
 
@@ -121,22 +95,20 @@ include'sidebar.html';
                            <div class="card-body">
                               <div class="form-layout form-layout-1">
                                  <div class="row mg-b-25">
-                                    <div class="col-lg-12">
-                                       <div class="form-group">
-                                          <input class="form-control" type="text" name="firstname" value="" placeholder="اسم المدينة ">
-                                       </div>
-                                    </div>
-                                    <!-- col-4 -->
-                                    <div class="col-lg-12">
-                                       <div class="form-group">
-                                      
-                                          <input class="form-control" type="text" name="lastname" value="" placeholder="رمز المدينة  ">
-                                       </div>
-                                    </div>
-                                    <!-- col-4 -->
+                                   
+                                 
                                              <div class="col-lg-12">
                                        <div class="form-group mg-b-10-force">
-                                         
+                                         <label>التحويل من</label>
+                                          <select class="form-control select2 select2-hidden-accessible" data-placeholder="اختيار الموزع  " tabindex="-1" aria-hidden="true">
+                                             <option label=""></option>
+                                             <option value="">أكاادير </option>
+                                          </select>
+                                       </div>
+                                    </div>
+                                         <div class="col-lg-12">
+                                       <div class="form-group mg-b-10-force">
+                                         <label>التحويل إلى</label>
                                           <select class="form-control select2 select2-hidden-accessible" data-placeholder="اختيار الموزع  " tabindex="-1" aria-hidden="true">
                                              <option label=""></option>
                                              <option value="">أكاادير </option>
@@ -156,7 +128,6 @@ include'sidebar.html';
                         </div>
                           </div>
                      </div>
-           </div>
 
          <!--/ Page Content End -->
       </div>

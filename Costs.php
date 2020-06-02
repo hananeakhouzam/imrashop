@@ -73,39 +73,13 @@ include'sidebar.html';
             <!--================================-->
             <div class="page-inner pd-0-force">
                <!-- File Manages -->
-           .<div class="col-md-12">
+           <div class="col-md-12">
               <div class="d-flex justify-content-between align-items-center">
                                  <div>
-                                    <h6 class="card-header-title tx-13 mb-0"> المدن والموزعين المكلفين بهم</h6>
+                                    <h6 class="card-header-title tx-13 mb-0">التكاليف</h6>
                                  </div>
                               </div>
 <div class="row clearfix">
-                     <!--================================-->
-                     <!-- Basic dataTable Start -->
-                     <!--================================-->
-                     <div class="col-md-6">
-                        <div class="card mg-b-30">
-                           <div class="card-body pd-0">
-                              <table id="basicDataTable" class="table responsive nowrap">
-                                 <thead>
-                                    <tr>
-                                       <th>المدينة   </th>
-                                       <th>الرمز    </th>
-                                       <th>الموزع  </th>
-                                    </tr>
-                                 </thead>
-                                 <tbody>
-                                 </tbody>
-                           <td></td>
-                           <td>name</td>
-                           <td>name</td>
-                              </table>
-                           </div>
-                        </div>
-                     </div>
-       
-
-
 <div class="col-md-6">
 
                         <div class="card mg-b-30">
@@ -113,7 +87,7 @@ include'sidebar.html';
 
                               <div class="d-flex justify-content-between align-items-center">
                                  <div>
-                                    <h6 class="card-header-title tx-13 mb-0">اضاغة نجينة جديدة </h6>
+                                    <h6 class="card-header-title tx-13 mb-0">اضافة مدفوعات جديدة</h6>
                                  </div>
                          
                               </div>
@@ -121,30 +95,33 @@ include'sidebar.html';
                            <div class="card-body">
                               <div class="form-layout form-layout-1">
                                  <div class="row mg-b-25">
-                                    <div class="col-lg-12">
-                                       <div class="form-group">
-                                          <input class="form-control" type="text" name="firstname" value="" placeholder="اسم المدينة ">
-                                       </div>
-                                    </div>
-                                    <!-- col-4 -->
-                                    <div class="col-lg-12">
-                                       <div class="form-group">
-                                      
-                                          <input class="form-control" type="text" name="lastname" value="" placeholder="رمز المدينة  ">
-                                       </div>
-                                    </div>
-                                    <!-- col-4 -->
-                                             <div class="col-lg-12">
+                                       <div class="col-lg-12">
                                        <div class="form-group mg-b-10-force">
                                          
                                           <select class="form-control select2 select2-hidden-accessible" data-placeholder="اختيار الموزع  " tabindex="-1" aria-hidden="true">
-                                             <option label=""></option>
-                                             <option value="">أكاادير </option>
+                                             <option label="">تابت </option>
+                                             <option value="">متغير  </option>
                                           </select>
                                        </div>
                                     </div>
+                                    <!-- col-4 -->
+                                     <div class="col-lg-12">
+                                       <div class="form-group mg-b-10-force">
+                                         
+                                          <select class="form-control select2 select2-hidden-accessible" data-placeholder="اختيار الموزع  " tabindex="-1" aria-hidden="true">
+                                             <option label="">المرجو اختبار المدفوع </option>
+                                             <option value=""> </option>
+                                          </select>
+                                       </div>
+                                    </div>
+                                     <div class="col-lg-12">
+                                       <div class="form-group">
+                                      
+                                          <input class="form-control" type="text" name="lastname" value="" placeholder="القيمة   ">
+                                       </div>
+                                    </div>
                                 <div class="form-layout-footer col-md-12">
-                                    <button class="btn btn-success btn-block">اضافة مدينة جديدة </button>
+                                    <button class="btn btn-success btn-block">حفض المدفوعات  </button>
                                  </div>
  
                                     </div>
@@ -154,6 +131,53 @@ include'sidebar.html';
                               </div>
                            </div>
                         </div>
+
+                          </div>
+                     </div>
+
+
+
+                     <div class="col-md-12">
+<div class="row clearfix">
+<div class="col-md-6">
+
+                        <div class="card mg-b-30">
+                           <div class="card-header">
+
+                              <div class="d-flex justify-content-between align-items-center">
+                                 <div>
+                                    <h6 class="card-header-title tx-13 mb-0">اضافة نوع جديد من المدفوعات الثابتة</h6>
+                                 </div>
+                         
+                              </div>
+                           </div>
+                           <div class="card-body">
+                              <div class="form-layout form-layout-1">
+                                          <div class="col-lg-12">
+                                       <div class="form-group">
+                                          <input class="form-control" type="text" name="lastname" value="" placeholder="الاسم    ">
+                                       </div>
+                                    </div>
+                                    <!-- col-4 -->
+                                    
+                               <div class="col-lg-12">
+                                       <div class="form-group">
+                                      
+                                          <input class="form-control" type="text" name="lastname" value="" placeholder="القيمة   ">
+                                       </div>
+                                    </div>
+                                <div class="form-layout-footer col-md-12">
+                                    <button class="btn btn-success btn-block">حفض النوع الجديد من المدفوعات </button>
+                                 </div>
+ 
+                                    </div>
+                                 </div>
+                               
+                                 <!-- form-layout-footer -->
+                              </div>
+                           </div>
+                        </div>
+
                           </div>
                      </div>
            </div>
