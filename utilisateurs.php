@@ -75,7 +75,55 @@ include'sidebar.html';
                <!-- File Manages -->
            
 
+<div class="row clearfix">
+                     <!--================================-->
+                     <!-- Basic dataTable Start -->
+                     <!--================================-->
+                     <div class="col-md-12 col-lg-12">
+                        <div class="card mg-b-30">
+                           <div class="card-header">
+                              <div class="d-flex justify-content-between align-items-center">
+                                 <div>
+                                    <h6 class="card-header-title tx-13 mb-0">الأعضاء </h6>
+                                 </div>
+                                 <div>
+                                    <button class="btn btn-primary">
+                                       اضافة عضو جديد 
+                                    </button>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="card-body pd-0">
+                              <table id="basicDataTable" class="table responsive nowrap">
+                                 <thead>
+                                    <tr>
+                                       <th> </th>
+                                       <th>اسم المستخدم   </th>
+                                       <th> الإميل </th>
+                                       <th>تاريخ التسجيل </th>
+                                       <th> الوظيفة</th>
+                                       <th>رقم الهاتف   </th>
+                                       <th> تعديل</th>
+                              
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                 </tbody>
+                           <td></td>
+                           <td>name</td>
+                           <td>name</td>
+                           <td>name</td>
+                           <td>name</td>
+                           <td>name</td>
+                           <td>name</td>
+                        
+                              </table>
+                           </div>
+                        </div>
+                     </div>
 
+
+         </div>
          <!--/ Page Content End -->
       </div>
 

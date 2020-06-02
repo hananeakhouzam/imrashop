@@ -90,7 +90,7 @@ include'sidebar.html';
                          <div class="col-md-3 col-lg-3 col-xl-3 mg-t-30">
                               <div class="card card-file" data-pushbar-target="fileDetailsPushbar">
                                  <div class="card-body">
-                                     <h3> درهم </h3> 
+                                     <h3> 10درهم </h3> 
                                      <span>مجموع الأرباح لهذا الأيوم </span>
                                       </div>
                                     </div>
@@ -98,7 +98,7 @@ include'sidebar.html';
                           <div class="col-md-3 col-lg-3 col-xl-3 mg-t-30">
                               <div class="card card-file" data-pushbar-target="fileDetailsPushbar">
                                  <div class="card-body">
-                                     <h3> درهم </h3> 
+                                     <h3> 10درهم </h3> 
                                      <span>عدد الطلبات الجديدة</span>
                                       </div>
                                     </div>
@@ -106,7 +106,7 @@ include'sidebar.html';
                           <div class="col-md-3 col-lg-3 col-xl-3 mg-t-30">
                               <div class="card card-file" data-pushbar-target="fileDetailsPushbar">
                                  <div class="card-body">
-                                     <h3> درهم </h3> 
+                                     <h3>10 درهم </h3> 
                                      <span>عدد الطلبات في  انتظار التوزيع</span>
                                       </div>
                                     </div>
@@ -114,7 +114,7 @@ include'sidebar.html';
                           <div class="col-md-3 col-lg-3 col-xl-3 mg-t-30">
                               <div class="card card-file" data-pushbar-target="fileDetailsPushbar">
                                  <div class="card-body">
-                                     <h3> درهم </h3>
+                                     <h3>10 درهم </h3>
                                       
                                      <span> الطلبات  قيد المعالجة</span>
                                       </div>
