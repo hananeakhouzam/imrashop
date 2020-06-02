@@ -3,7 +3,7 @@
    
 <!-- Mirrored from colorlib.net/avesta/html/app-file-manager.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 09 Apr 2020 15:03:37 GMT -->
 <head>
-      <?php
+ <?php
 include 'header.html';
 
      ?>
@@ -129,9 +129,10 @@ include'sidebar.html';
 
       <!-- Footer Script -->
       <!--================================-->
-      <?php
+<?php
 include 'footer.html';
 ?> 
+ 
    </body>
 
 <!-- Mirrored from colorlib.net/avesta/html/app-file-manager.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 09 Apr 2020 15:03:38 GMT -->
