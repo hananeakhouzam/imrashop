@@ -60,11 +60,7 @@ include'sidebar.html';
                         </ul>
                      </div>
                   </div>
-                  <!--/ Brand and Logo End -->
-                  <!--================================-->
-                  <!-- Header Right Start -->
-                  <!--================================-->
-                  <!--/ Header Right End -->
+
                </nav>
             </div>
             <!--/ Page Header End -->   
@@ -73,61 +69,45 @@ include'sidebar.html';
             <!--================================-->
             <div class="page-inner pd-0-force">
                <!-- File Manages -->
-                  <div class="row clearfix">
-                     <div class="col-12">
-                        <div class="card mg-b-30">
-                           <div class="card-body">
-                              <p class="lead mb-0">تحويل الطلبات من موظفة لأخرى<br> المرجوا استعمال هذه الأداة بانتباه ، لا يمكن التراجع عن العملية<br> يتم تحويل فقط الطلبات قيد المعالجة.</p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                        <div class="card mg-b-30">
-                           <div class="card-header">
-
-                              <div class="d-flex justify-content-between align-items-center">
+           <div class="col-md-12">
+              <div class="d-flex justify-content-between align-items-center">
                                  <div>
-                                    <h6 class="card-header-title tx-13 mb-0">الأرباح </h6>
+                                    <h6 class="card-header-title tx-13 mb-0"> الحساب اليومي
+</h6>
                                  </div>
-                         
-                              </div>
-                           </div>
-                           <div class="card-body">
-                              <div class="form-layout form-layout-1">
-                                 <div class="row mg-b-25">
-                                   
-                                 
-                                             <div class="col-lg-12">
-                                       <div class="form-group mg-b-10-force">
-                                         <label>التحويل من</label>
-                                          <select class="form-control select2 select2-hidden-accessible" data-placeholder="اختيار الموزع  " tabindex="-1" aria-hidden="true">
-                                             <option label=""></option>
-                                             <option value="">أكاادير </option>
-                                          </select>
+                                 <div class="col-md-6">
+                           <div class="row">
+                                 <div class="col-lg-5">
+                                       <div class="form-group">
+                                          <label>التاريخ من</label>
+                                          <input class="form-control" type="text" name="lastname" value="" placeholder="التاريخ من    ">
                                        </div>
                                     </div>
-                                         <div class="col-lg-12">
-                                       <div class="form-group mg-b-10-force">
-                                         <label>التحويل إلى</label>
-                                          <select class="form-control select2 select2-hidden-accessible" data-placeholder="اختيار الموزع  " tabindex="-1" aria-hidden="true">
-                                             <option label=""></option>
-                                             <option value="">أكاادير </option>
-                                          </select>
+                                     <div class="col-lg-5">
+                                       <div class="form-group">
+                                          <label>التاريخ إلى</label>
+                                          <input class="form-control" type="text" name="lastname" value="" placeholder="التاريخ إلى    ">
                                        </div>
                                     </div>
-                                <div class="form-layout-footer col-md-12">
-                                    <button class="btn btn-success btn-block">اضافة مدينة جديدة </button>
+                                        <div class="form-layout-footer col-md-2">
+                                    <button class="btn btn-success"></button>
                                  </div>
  
+                                    </div>
+                                    <!-- col-4 -->
+                                    
+                            
+                            
                                     </div>
                                  </div>
                                
                                  <!-- form-layout-footer -->
                               </div>
                            </div>
-                        </div>
-                          </div>
+                              </div>
                      </div>
+           </div>
+
 
          <!--/ Page Content End -->
       </div>
