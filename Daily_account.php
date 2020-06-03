@@ -108,6 +108,36 @@ include'sidebar.html';
                      </div>
            </div>
 
+      <div class="col-md-12 col-lg-12">
+                        <div class="card mg-b-30">
+                           <div class="card-body pd-0">
+                              <table id="basicDataTable" class="table responsive nowrap">
+                                 <thead>
+                                    <tr>
+                                       <th>اليوم      </th>
+                                       <th>عدد الطلبات       </th>
+                                       <th>مجموع المبيعات     </th>
+                                       <th> رؤية التفاصيل       </th>
+                                       <th>استلام الدفع    </th>
+                                     
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                  <td></td>
+                           <td>name</td>
+                           <td>name</td>
+                           <td>name</td>
+                           <td>name</td>
+                           <td>name</td>
+                          
+                                
+                               
+                                 </tbody>
+                           
+                              </table>
+                           </div>
+                        </div>
+                     </div>
 
          <!--/ Page Content End -->
       </div>
