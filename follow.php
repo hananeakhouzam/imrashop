@@ -43,37 +43,9 @@ include'sidebar.html';
             <!--================================-->
             <!-- Page Header Start -->
             <!--================================-->
-            <div class="page-header">
-               <div class="search-form">
-                  <form action="#" method="GET">
-                     <div class="input-group">
-                        <input class="form-control search-input typeahead" name="search" placeholder="Type something..." type="text"/>
-                        <span class="input-group-btn"><span id="close-search"><i data-feather="x" class="wd-16"></i></span></span>
-                     </div>
-                  </form>
-               </div>
-               <nav class="navbar navbar-default">
-                  <!--================================-->
-                  <!-- Brand and Logo Start -->
-                  <!--================================-->
-                  <div class="navbar-header">
-                     <div class="navbar-brand">
-                        <ul class="list-inline">
-                           <!-- Mobile Toggle and Logo -->
-                           <li class="list-inline-item"><a class="hidden-md hidden-lg" href="#" id="sidebar-toggle-button"><i data-feather="menu" class="wd-20"></i></a></li>
-                           <!-- PC Toggle and Logo -->
-                           <li class="list-inline-item"><a class=" hidden-xs hidden-sm" href="#" id="collapsed-sidebar-toggle-button"><i data-feather="menu" class="wd-20"></i></a></li>
-                          
-                        </ul>
-                     </div>
-                  </div>
-                  <!--/ Brand and Logo End -->
-                  <!--================================-->
-                  <!-- Header Right Start -->
-                  <!--================================-->
-                  <!--/ Header Right End -->
-               </nav>
-            </div>
+              <?php
+                      include'navbar.html';
+          ?> 
             <!--/ Page Header End -->   
             <!--================================-->
             <!-- Page Inner Start -->

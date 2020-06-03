@@ -43,30 +43,9 @@ include'sidebar.html';
             <!--================================-->
             <!-- Page Header Start -->
             <!--================================-->
-            <div class="page-header">
-             
-               <nav class="navbar navbar-default">
-                  <!--================================-->
-                  <!-- Brand and Logo Start -->
-                  <!--================================-->
-                  <div class="navbar-header">
-                     <div class="navbar-brand">
-                        <ul class="list-inline">
-                           <!-- Mobile Toggle and Logo -->
-                           <li class="list-inline-item"><a class="hidden-md hidden-lg" href="#" id="sidebar-toggle-button"><i data-feather="menu" class="wd-20"></i></a></li>
-                           <!-- PC Toggle and Logo -->
-                           <li class="list-inline-item"><a class=" hidden-xs hidden-sm" href="#" id="collapsed-sidebar-toggle-button"><i data-feather="menu" class="wd-20"></i></a></li>
-                           <li class="list-inline-item mg-l-10"><a  href="#" id="search-button">
-                        </ul>
-                     </div>
-                  </div>
-                  <!--/ Brand and Logo End -->
-                  <!--================================-->
-                  <!-- Header Right Start -->
-                  <!--================================-->
-                  <!--/ Header Right End -->
-               </nav>
-            </div>
+                <?php
+include'navbar.html';
+          ?> 
             <!--/ Page Header End -->   
             <!--================================-->
             <!-- Page Inner Start -->
@@ -83,20 +62,9 @@ include'sidebar.html';
                      </div>
                   </div>
                         <div class="card mg-b-30">
-                           <div class="card-header">
-
-                              <div class="d-flex justify-content-between align-items-center">
-                                 <div>
-                                    <h6 class="card-header-title tx-13 mb-0">الأرباح </h6>
-                                 </div>
-                         
-                              </div>
-                           </div>
                            <div class="card-body">
                               <div class="form-layout form-layout-1">
                                  <div class="row mg-b-25">
-                                   
-                                 
                                              <div class="col-lg-12">
                                        <div class="form-group mg-b-10-force">
                                          <label>التحويل من</label>

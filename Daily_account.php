@@ -43,26 +43,9 @@ include'sidebar.html';
             <!--================================-->
             <!-- Page Header Start -->
             <!--================================-->
-            <div class="page-header">
-             
-               <nav class="navbar navbar-default">
-                  <!--================================-->
-                  <!-- Brand and Logo Start -->
-                  <!--================================-->
-                  <div class="navbar-header">
-                     <div class="navbar-brand">
-                        <ul class="list-inline">
-                           <!-- Mobile Toggle and Logo -->
-                           <li class="list-inline-item"><a class="hidden-md hidden-lg" href="#" id="sidebar-toggle-button"><i data-feather="menu" class="wd-20"></i></a></li>
-                           <!-- PC Toggle and Logo -->
-                           <li class="list-inline-item"><a class=" hidden-xs hidden-sm" href="#" id="collapsed-sidebar-toggle-button"><i data-feather="menu" class="wd-20"></i></a></li>
-                           <li class="list-inline-item mg-l-10"><a  href="#" id="search-button">
-                        </ul>
-                     </div>
-                  </div>
-
-               </nav>
-            </div>
+                 <?php
+include'navbar.html';
+          ?> 
             <!--/ Page Header End -->   
             <!--================================-->
             <!-- Page Inner Start -->
@@ -107,6 +90,13 @@ include'sidebar.html';
                               </div>
                      </div>
            </div>
+
+
+<div class="btn-group  block" style="width:100%;">
+    <a class="btn btn-primary activeTab" id="showNotPaid" href="javascript:;">انتظار الاستلام</a>
+    <a class="btn btn-primary" id="showPaid" href="javascript:;">تم الدفع</a>
+</div>
+
 
       <div class="col-md-12 col-lg-12">
                         <div class="card mg-b-30">

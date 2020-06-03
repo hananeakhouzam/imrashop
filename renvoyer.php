@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="ar">
    
 <!-- Mirrored from colorlib.net/avesta/html/app-file-manager.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 09 Apr 2020 15:03:37 GMT -->
 <head>
@@ -44,28 +44,9 @@ include'sidebar.html';
             <!--================================-->
             <!-- Page Header Start -->
             <!--================================-->
-            <div class="page-header">
-               <nav class="navbar navbar-default">
-                  <!--================================-->
-                  <!-- Brand and Logo Start -->
-                  <!--================================-->
-                  <div class="navbar-header">
-                     <div class="navbar-brand">
-                        <ul class="list-inline">
-                           <!-- Mobile Toggle and Logo -->
-                           <li class="list-inline-item"><a class="hidden-md hidden-lg" href="#" id="sidebar-toggle-button"><i data-feather="menu" class="wd-20"></i></a></li>
-                           <!-- PC Toggle and Logo -->
-                           <li class="list-inline-item"><a class=" hidden-xs hidden-sm" href="#" id="collapsed-sidebar-toggle-button"><i data-feather="menu" class="wd-20"></i></a>
-                        </ul>
-                     </div>
-                  </div>
-                  <!--/ Brand and Logo End -->
-                  <!--================================-->
-                  <!-- Header Right Start -->
-                  <!--================================-->
-                  <!--/ Header Right End -->
-               </nav>
-            </div>
+           <?php
+include'navbar.html';
+          ?> 
             <!--/ Page Header End -->   
             <!--================================-->
             <!-- Page Inner Start -->
