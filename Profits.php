@@ -51,8 +51,10 @@ include'navbar.html';
             <!-- Page Inner Start -->
             <!--================================-->
             <div class="page-inner pd-0-force">
-               <!-- File Manages -->
-           <div class="col-md-12">
+   <div>
+                                    <h3 class="">  الطلبات عند الموزعين   </h3>
+                                 </div>
+                              </div>           <div class="col-md-12">
               <div class="d-flex justify-content-between align-items-center">
                                  <div>
                                     <h6 class="card-header-title tx-13 mb-0"> الحساب اليومي
@@ -84,6 +86,7 @@ include'navbar.html';
                                
                                  <!-- form-layout-footer -->
 
+  <div class="col-md-12 responsive">
   <div class="col-md-12 col-lg-12">
         <div class="form-layout-footer col-md-2">
                                     <button class="btn btn-success">telecharger Exel</button>
@@ -128,6 +131,7 @@ include'navbar.html';
                               </div>
                            </div>
                               </div>
+                     </div>
                      </div>
            </div>
              

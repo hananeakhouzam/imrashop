@@ -53,17 +53,21 @@ include'navbar.html';
             <div class="page-inner pd-0-force">
                <!-- File Manages -->
            
-
+    <div>
+                                    <h3 class="">  الطلبات عند الموزعين   </h3>
+                                 </div>
+                              </div>
 <div class="row clearfix">
                      <!--================================-->
                      <!-- Basic dataTable Start -->
                      <!--================================-->
+                     <div class="col-md-12 responsive">
                      <div class="col-md-12 col-lg-12">
                         <div class="card mg-b-30">
                            <div class="card-header">
                               <div class="d-flex justify-content-between align-items-center">
                                  <div>
-                                    <h6 class="card-header-title tx-13 mb-0">  الطلبات عند الموزعين</h6>
+                                    <h6 class="card-header-title tx-13 mb-0"> </h6>
                                  </div>
                               </div>
                            </div>
@@ -100,6 +104,7 @@ include'navbar.html';
                               </table>
                            </div>
                         </div>
+                     </div>
                      </div>
 
 

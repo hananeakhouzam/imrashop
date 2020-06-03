@@ -52,20 +52,23 @@ include'navbar.html';
             <!--================================-->
             <div class="page-inner pd-0-force">
                <!-- File Manages -->
-         
-<div class="row clearfix">
-    <label>ادخل رقم الهاتف</label>
-    <div class="input-group pd-y-50 mx-auto">
-                             
+         <div>
+            <h3> البحث   </h3>
+         </div>
+<div class="col-md-12 responsive ">
+                             <div class="input-group pd-y-50 mx-auto ">
+                            <label></label>
                            <input type="text" class="form-control form-control-lg" placeholder=" رقم الهاتف">
                            <div class="input-group-append">
                               <button type="button" class="btn btn-custom-primary"> <i class="fa fa-search mg-r-5"></i>بحت </button>
                            </div>
                         </div>
+                        </div>
                      <!--================================-->
                      <!-- Basic dataTable Start -->
                      <!--================================-->
-                     <div class="col-md-12 col-lg-12">
+                     <div class="col-md-12 responsive ">
+                     <div class="col-md-12 col-lg-12 ">
                         <div class="card mg-b-30">
                            <div class="card-header">
                               <div class="d-flex justify-content-between align-items-center">
@@ -112,7 +115,6 @@ include'navbar.html';
                               </table>
                            </div>
                         </div>
-                     </div>
 
 
          </div>

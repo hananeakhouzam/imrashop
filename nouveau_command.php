@@ -52,19 +52,13 @@ include'navbar.html';
             <!--================================-->
             <div class="page-inner pd-0-force">
                <!-- File Manages -->
-           
+              <div>
+                                    <h3 class="">معلومات الزبون   </h3>
+                                 </div>
+                              </div>
   <div class="col-md-12 col-lg-12">
 
                         <div class="card mg-b-30">
-                           <div class="card-header">
-
-                              <div class="d-flex justify-content-between align-items-center">
-                                 <div>
-                                    <h6 class="card-header-title tx-13 mb-0">معلومات الزبون</h6>
-                                 </div>
-                         
-                              </div>
-                           </div>
                            <div class="card-body">
                               <div class="form-layout form-layout-1">
                                  <div class="row mg-b-25">
