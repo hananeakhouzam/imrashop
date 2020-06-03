@@ -52,15 +52,14 @@ include'navbar.html';
             <!--================================-->
             <div class="page-inner pd-0-force">
                <!-- File Manages -->
-                  <div class="row clearfix">
-                     <div class="col-12">
+                     <div class="col-md-12 responsive">
                         <div class="card mg-b-30">
                            <div class="card-body">
                               <p class="lead mb-0">تحويل الطلبات من موظفة لأخرى<br> المرجوا استعمال هذه الأداة بانتباه ، لا يمكن التراجع عن العملية<br> يتم تحويل فقط الطلبات قيد المعالجة.</p>
                            </div>
                         </div>
                      </div>
-                  </div>
+                  <div class="col-md-12 responsive">
                         <div class="card mg-b-30">
                            <div class="card-body">
                               <div class="form-layout form-layout-1">
@@ -91,6 +90,7 @@ include'navbar.html';
                                  </div>
                                
                                  <!-- form-layout-footer -->
+                              </div>
                               </div>
                            </div>
                         </div>

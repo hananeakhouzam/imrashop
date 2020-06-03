@@ -43,83 +43,29 @@ include'sidebar.html';
             <!--================================-->
             <!-- Page Header Start -->
             <!--================================-->
-            <div class="page-header">
-               <div class="search-form">
-                  <form action="#" method="GET">
-                     <div class="input-group">
-                        <input class="form-control search-input typeahead" name="search" placeholder="Type something..." type="text"/>
-                        <span class="input-group-btn"><span id="close-search"><i data-feather="x" class="wd-16"></i></span></span>
-                     </div>
-                  </form>
-               </div>
-               <nav class="navbar navbar-default">
-                  <!--================================-->
-                  <!-- Brand and Logo Start -->
-                  <!--================================-->
-                  <div class="navbar-header">
-                     <div class="navbar-brand">
-                        <ul class="list-inline">
-                           <!-- Mobile Toggle and Logo -->
-                           <li class="list-inline-item"><a class="hidden-md hidden-lg" href="#" id="sidebar-toggle-button"><i data-feather="menu" class="wd-20"></i></a></li>
-                           <!-- PC Toggle and Logo -->
-                           <li class="list-inline-item"><a class=" hidden-xs hidden-sm" href="#" id="collapsed-sidebar-toggle-button"><i data-feather="menu" class="wd-20"></i></a></li>
-                           <li class="list-inline-item dropdown show">
-                           <a href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                           <img src="assets/images/users-face/1.png" class="img-fluid wd-30 ht-30 rounded-circle" alt="">
-                           </a>
-                           <div class="dropdown-menu dropdown-menu-right dropdown-profile show">
-                              <div class="user-profile-area">
-                                 <div class="user-profile-heading">
-                                    <div class="profile-thumbnail">
-                                       <img src="assets/images/users-face/1.png" class="img-fluid wd-35 ht-35 rounded-circle" alt="">
-                                    </div>
-                                    <div class="profile-text">
-                                       <h6>Ruhul Hasan</h6>
-                                       <span>email@example.com</span>
-                                    </div>
-                                 </div>
-                                 <a href="#" class="dropdown-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user wd-16 mr-2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg> My profile</a>
-                                 <a href="#" class="dropdown-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-square wd-16 mr-2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg> Messages</a>
-                                 <a href="#" class="dropdown-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-settings wd-16 mr-2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg> Settings</a>
-                                 <a href="#" class="dropdown-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity wd-16 mr-2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg> My Activity</a>
-                                 <a href="#" class="dropdown-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download wd-16 mr-2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg> My Download</a>
-                                 <a href="#" class="dropdown-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-life-buoy wd-16 mr-2"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="4"></circle><line x1="4.93" y1="4.93" x2="9.17" y2="9.17"></line><line x1="14.83" y1="14.83" x2="19.07" y2="19.07"></line><line x1="14.83" y1="9.17" x2="19.07" y2="4.93"></line><line x1="14.83" y1="9.17" x2="18.36" y2="5.64"></line><line x1="4.93" y1="19.07" x2="9.17" y2="14.83"></line></svg> Support</a>
-                                 <a href="aut-logign-register.html" class="dropdown-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-power wd-16 mr-2"><path d="M18.36 6.64a9 9 0 1 1-12.73 0"></path><line x1="12" y1="2" x2="12" y2="12"></line></svg> Sign-out</a>
-                              </div>
-                           </div>
-                        </li>
-                           
-                        </ul>
-                     </div>
-                  </div>
-                  <!--/ Brand and Logo End -->
-                  <!--================================-->
-                  <!-- Header Right Start -->
-                  <!--================================-->
-                  <!--/ Header Right End -->
-               </nav>
-            </div>
+           <?php
+include'navbar.html';
+          ?> 
             <!--/ Page Header End -->   
             <!--================================-->
             <!-- Page Inner Start -->
             <!--================================-->
             <div class="page-inner pd-0-force">
                <!-- File Manages -->
-           
+                             <div class="">
+                                 <div>
+                                    <h3 class=""> الطلبات المحذوفة</h3>
+                                 </div>
+                              </div>
 
 <div class="row clearfix">
                      <!--================================-->
                      <!-- Basic dataTable Start -->
                      <!--================================-->
+                     <div class="col-md-12 responsive">
                      <div class="col-md-12 col-lg-12">
                         <div class="card mg-b-30">
-                           <div class="card-header">
-                              <div class="d-flex justify-content-between align-items-center">
-                                 <div>
-                                    <h6 class="card-header-title tx-13 mb-0">  جميع الطلبات</h6>
-                                 </div>
-                              </div>
-                           </div>
+                           
                            <div class="card-body pd-0">
                               <table id="basicDataTable" class="table responsive nowrap">
                                  <thead>
@@ -156,6 +102,7 @@ include'sidebar.html';
                      </div>
 
 
+         </div>
          </div>
          <!--/ Page Content End -->
       </div>

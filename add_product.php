@@ -52,20 +52,17 @@ include'navbar.html';
             <!--================================-->
             <div class="page-inner pd-0-force">
                <!-- File Manages -->
-           
+            <div class="">
+                                 <div>
+                                    <h3 class=""> الطلبات المحذوفة</h3>
+                                 </div>
+                              </div>
 
                      <!--/ Top Label Layout End -->   
                      <!--================================-->
+                      <div class="col-md-12 responsive">
                      <div class="col-md-12 col-lg-12">
                         <div class="card mg-b-30">
-                           <div class="card-header">
-                              <div class="d-flex justify-content-between align-items-center">
-                                 <div>
-                                    <h6 class="card-header-title tx-13 mb-0">اضافة منتج جديد</h6>
-                                 </div>
-                               
-                              </div>
-                           </div>
                            <div class="card-body">
                               <div class="row">
                                  <div class="col-xl-12">
@@ -105,7 +102,7 @@ include'navbar.html';
                            </div>
                         </div>
                      </div>
-
+ </div>
            	
          </div>
          <!--/ Page Content End -->

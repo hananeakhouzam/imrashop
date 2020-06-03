@@ -43,51 +43,28 @@ include'sidebar.html';
             <!--================================-->
             <!-- Page Header Start -->
             <!--================================-->
-            <div class="page-header">
-             
-               <nav class="navbar navbar-default">
-                  <!--================================-->
-                  <!-- Brand and Logo Start -->
-                  <!--================================-->
-                  <div class="navbar-header">
-                     <div class="navbar-brand">
-                        <ul class="list-inline">
-                           <!-- Mobile Toggle and Logo -->
-                           <li class="list-inline-item"><a class="hidden-md hidden-lg" href="#" id="sidebar-toggle-button"><i data-feather="menu" class="wd-20"></i></a></li>
-                           <!-- PC Toggle and Logo -->
-                           <li class="list-inline-item"><a class=" hidden-xs hidden-sm" href="#" id="collapsed-sidebar-toggle-button"><i data-feather="menu" class="wd-20"></i></a></li>
-                           <li class="list-inline-item mg-l-10"><a  href="#" id="search-button">
-                        </ul>
-                     </div>
-                  </div>
-                  <!--/ Brand and Logo End -->
-                  <!--================================-->
-                  <!-- Header Right Start -->
-                  <!--================================-->
-                  <!--/ Header Right End -->
-               </nav>
-            </div>
+              <?php
+include'navbar.html';
+          ?> 
             <!--/ Page Header End -->   
             <!--================================-->
             <!-- Page Inner Start -->
             <!--================================-->
             <div class="page-inner pd-0-force">
                <!-- File Manages -->
-           
+            <div class="">
+                                 <div>
+                                    <h3 class="">  الطلبات الجديدة  </h3>
+                                 </div>
+                              </div>
 
 <div class="row clearfix">
                      <!--================================-->
                      <!-- Basic dataTable Start -->
                      <!--================================-->
+                     <div class="col-md-12 responsive">
                      <div class="col-md-12 col-lg-12">
                         <div class="card mg-b-30">
-                           <div class="card-header">
-                              <div class="d-flex justify-content-between align-items-center">
-                                 <div>
-                                    <h6 class="card-header-title tx-13 mb-0"> الطلبات الجديدة</h6>
-                                 </div>
-                              </div>
-                           </div>
                            <div class="card-body pd-0">
                               <table id="basicDataTable" class="table responsive nowrap">
                                  <thead>
